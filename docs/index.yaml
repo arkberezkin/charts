@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-30T00:05:36.285466+02:00"
+    description: A grpc service
+    digest: 96173cb81f17c4559e099dafc1b1cfa634ddc541a41aa3e8154fc6b1c1a76ee1
+    name: service
+    type: application
+    urls:
+    - git+ssh://git@issuuhub.com/arkberezkin/charts@/service-0.1.0.tgz?ref=main
+    version: 0.1.0
+generated: "2022-09-30T00:05:36.28516+02:00"
