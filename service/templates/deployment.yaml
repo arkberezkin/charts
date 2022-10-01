@@ -39,11 +39,11 @@ spec:
               containerPort: 80
               protocol: TCP
           livenessProbe:
-            grpc:
-              port: 80
+            tcp:
+              port: grpc
           readinessProbe:
-            grpc:
-              port: 80
+            tcp:
+              port: grpc
           resources:
             {{- toYaml .Values.global.resources | nindent 12 }}
       {{- with .Values.global.nodeSelector }}
