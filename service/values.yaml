@@ -41,6 +41,9 @@ global:
     type: ClusterIP
     port: 80
 
+  istio:
+    enabled: false
+
   ingress:
     enabled: false
     className: ""

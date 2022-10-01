@@ -6,3 +6,6 @@ metadata:
   labels:
     name: {{ include "service.fullname" . }}
     repo: {{ include "service.fullname" . }}
+    {{- if .Values.global.istio.enabled }}
+    istio-injection: "enabled"
+    {{- end }}
