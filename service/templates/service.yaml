@@ -4,6 +4,7 @@ metadata:
   name: {{ include "service.fullname" . }}
   labels:
     {{- include "service.labels" . | nindent 4 }}
+  namespace: {{ include "service.fullname" . }}
 spec:
   type: {{ .Values.global.service.type }}
   ports:
