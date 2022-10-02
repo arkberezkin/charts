@@ -3,7 +3,17 @@ entries:
   service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-01T23:40:47.088192+02:00"
+    created: "2022-10-02T14:09:44.827034+02:00"
+    description: A grpc service
+    digest: c7a2c204493b5150b8299eb3fa929f505821d069d2fcdf86e648bce6eafebd97
+    name: service
+    type: application
+    urls:
+    - https://arkberezkin.github.io/charts/service-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-02T14:09:44.826795+02:00"
     description: A grpc service
     digest: dd30ff6af764e5c6d896032eadda365bd459d620ca639320bf43ca2bef3792ec
     name: service
@@ -13,7 +23,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-01T23:40:47.087873+02:00"
+    created: "2022-10-02T14:09:44.826359+02:00"
     description: A grpc service
     digest: eba9490f8cae31ea2ec91bd8078a855925735a7fd6f834567000df3eb58c6722
     name: service
@@ -23,7 +33,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-01T23:40:47.087211+02:00"
+    created: "2022-10-02T14:09:44.825729+02:00"
     description: A grpc service
     digest: 4dc1f68f3cf4a5c6ebbf110e697ebe1dda20edd4a66e19b4722c2d38b11590d6
     name: service
@@ -33,7 +43,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-01T23:40:47.086605+02:00"
+    created: "2022-10-02T14:09:44.825203+02:00"
     description: A grpc service
     digest: 9b77ca4dbf55e8dc9b34d2f0eaa471f4454f01b83ba6c931a0ef576892f9cc8e
     name: service
@@ -43,7 +53,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-01T23:40:47.086082+02:00"
+    created: "2022-10-02T14:09:44.82471+02:00"
     description: A grpc service
     digest: a4e744169d02fb2613aa800ea8297c270f76cfaa2d31f861584a3d9803d76f5d
     name: service
@@ -53,7 +63,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-01T23:40:47.084602+02:00"
+    created: "2022-10-02T14:09:44.824133+02:00"
     description: A grpc service
     digest: cb6536cc234e7ab209b81c61dfe168c14caf30e10bea54783d8d16908d8e11b3
     name: service
@@ -63,7 +73,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-01T23:40:47.08409+02:00"
+    created: "2022-10-02T14:09:44.823553+02:00"
     description: A grpc service
     digest: d00c3b8b507db17e34d16fbc1620c05ae5abfb9243965050b4b9def3e3a66855
     name: service
@@ -73,7 +83,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-01T23:40:47.083611+02:00"
+    created: "2022-10-02T14:09:44.823052+02:00"
     description: A grpc service
     digest: bddbdd12b55d1855a2f876bef5be995be177555c9950b1a620faa472207cffdf
     name: service
@@ -83,7 +93,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-01T23:40:47.081991+02:00"
+    created: "2022-10-02T14:09:44.821838+02:00"
     description: A grpc service
     digest: 96173cb81f17c4559e099dafc1b1cfa634ddc541a41aa3e8154fc6b1c1a76ee1
     name: service
@@ -91,4 +101,4 @@ entries:
     urls:
     - https://arkberezkin.github.io/charts/service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-01T23:40:47.0814+02:00"
+generated: "2022-10-02T14:09:44.821399+02:00"

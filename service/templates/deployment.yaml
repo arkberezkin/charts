@@ -36,15 +36,15 @@ spec:
           image: "{{ .Values.global.image.repository }}:{{ .Values.global.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.global.image.pullPolicy }}
           ports:
-            - name: grpc
+            - name: http
               containerPort: 80
               protocol: TCP
           livenessProbe:
             tcpSocket:
-              port: grpc
+              port: http
           readinessProbe:
             tcpSocket:
-              port: grpc
+              port: http
           resources:
             {{- toYaml .Values.global.resources | nindent 12 }}
       {{- with .Values.global.nodeSelector }}
