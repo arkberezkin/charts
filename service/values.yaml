@@ -40,7 +40,7 @@ global:
   service:
     type: ClusterIP
     port: 80
-    name: http
+    portName: http
 
   istio:
     enabled: false

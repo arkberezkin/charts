@@ -9,8 +9,8 @@ spec:
   type: {{ .Values.global.service.type }}
   ports:
     - port: {{ .Values.global.service.port }}
-      targetPort: http
+      targetPort: {{ .Values.global.service.portName }}
       protocol: TCP
-      name: http
+      name: {{ .Values.global.service.portName }}
   selector:
     {{- include "service.selectorLabels" . | nindent 4 }}
