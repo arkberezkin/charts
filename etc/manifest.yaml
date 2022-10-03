@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      bb: web
+  template:
+    metadata:
+      # annotations:
+        # inject.istio.io/templates: grpc-agent
+        # proxy.istio.io/config: '{"holdApplicationUntilProxyStarts": true}'
+      labels:
+        bb: web
+    spec:
+      containers:
+      - name: tester
+        image: localhost:32000/tester:0.0.1
+        imagePullPolicy: IfNotPresent
+        command: [ "/bin/bash", "-c", "--" ]
+        args: [ "while true; do sleep 30; done;" ]
