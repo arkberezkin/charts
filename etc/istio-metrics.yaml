@@ -1,5 +1,8 @@
 apiVersion: install.istio.io/v1alpha1
 kind: IstioOperator
+metadata:
+  name: metrics-operator
+  namespace: istio-system
 spec:
   values:
     telemetry:
