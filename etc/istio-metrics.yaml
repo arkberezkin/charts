@@ -15,7 +15,8 @@ spec:
               metrics:
                 - name: requests_total
                   dimensions:
-                    request_url: "request.url_path"
+                    request_url: request.url_path
+                    destination_port: string(destination.port)
             gateway:
               debug: false
               stat_prefix: istio
@@ -23,4 +24,5 @@ spec:
               metrics:
                 - name: requests_total
                   dimensions:
-                    request_url: "request.url_path"
+                    request_url: request.url_path
+                    destination_port: string(destination.port)
