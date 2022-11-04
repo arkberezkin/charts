@@ -12,6 +12,11 @@ spec:
             inboundSidecar:
               debug: false
               stat_prefix: istio
+              metrics:
+                - name: requests_total
+                  dimensions:
+                    request_url: request.url_path
+                    destination_port: string(destination.port)
             outboundSidecar:
               debug: false
               stat_prefix: istio
