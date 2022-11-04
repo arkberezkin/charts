@@ -10,25 +10,18 @@ spec:
         prometheus:
           configOverride:
             inboundSidecar:
-              debug: false
-              stat_prefix: istio
               metrics:
                 - name: requests_total
                   dimensions:
                     request_url: request.url_path
                     destination_port: string(destination.port)
             outboundSidecar:
-              debug: false
-              stat_prefix: istio
               metrics:
                 - name: requests_total
                   dimensions:
                     request_url: request.url_path
                     destination_port: string(destination.port)
             gateway:
-              debug: false
-              stat_prefix: istio
-              disable_host_header_fallback: true
               metrics:
                 - name: requests_total
                   dimensions:
